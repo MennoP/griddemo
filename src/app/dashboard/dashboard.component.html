@@ -1,0 +1,7 @@
+<div class="grid-container">
+  <gridster [options]="options">
+    <gridster-item [item]="item" *ngFor="let item of items">
+      <app-tile [item]="item"></app-tile>
+    </gridster-item>
+  </gridster>
+</div>
